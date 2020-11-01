@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/style.css">
+
+    <title>Odrobina lasu</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <a href="index.html"><img class="logo" src="static/images/logo.png" alt="Odrobina lasu"></a>
+            <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#dropDown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="dropDown">
+                <ul class="nav__links">
+                    <li class="nav-item"> <a class="nav-link" href="#">Sklep</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">O nas </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Realizacje</a> </li>
+                    <li><a href="dla-dwojga.html"><button class="dla-dwojga-btn">Dla dwojga</button></a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 mt-3 p-5">
+                <img class="img-fluid" src="static/images/rozmowa.jpg" alt="Rozmowa dwoja ludzi">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mt-3 p-5">
+                <p>
+                    Jesień. Można uznać, że będzie to czas dramatu. Smutku. Niechęci. Jest przecież szaro, buro i
+                    ponuro.
+                </p>
+                Co powiecie na to, aby <span style="font-weight: bold">jesienne wieczory</span> zmienić w chwile
+                poznawania osób, które są w pobliżu? Czasem może być to mąż, z którym łączą wspólne lata, problemy i dobre chwile. Czasem
+                mama, z którą relacja nie jest tak piękna, jak jest w marzeniach. Czasem przyjaciel, o którym niby
+                wszystko się wie, dziecko, które nie ma tajemnic. A może nawet przypadkowo poznana osoba siedząca w
+                tym samym przedziale w pociągu? Jeśli gdzieś tam w środku kryje się w Tobie ciekawość, każdy
+                człowiek będzie dla Ciebie wspaniałą historią.
+                <p class="mt-2">
+                    Wylosuj pytanie poniżej, aby zapoznać rozpocząć rozmowę i zapytać o coś drugą osobę
+                </p>
+            </div>
+            <div class="col-12">
+                <button id="getQuestion" class="mt-5 btn btn-lg btn-block">
+                    Losuj pytanie
+                </button>
+                <div id="question" class="p-5 m-5">
+                    Losowe pytanie
+                </div>
+            </div>
+        </div>
+
+       
+
+    </main>
+
+    <script type="text/javascript" src="config/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+body{
+    background-color: #24252A;
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+p{
+    font-size: 18px;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+nav, #question{
+    background-color: #35363A;
+    text-align: center;
+}
+.collapse{
+    background-color: #35363A;
+}
+
+
+header{
+    text-align: center;
+    padding: 30px 10%;
+    background-color: #35363A;
+}
+
+a {
+    background-color: #35363A;
+}
+
+
+.logo{
+    background-color: #35363A;
+    width: 13rem;
+    height: 7rem;
+    cursor: pointer;
+}
+
+.nav__links{
+    background-color: #35363A;
+    list-style: none;
+}
+
+.nav__links li{
+    background-color: #35363A;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    background-color: #35363A;
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,135,169,1);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,135,169,0.8);
+}
+
+.btn{
+    padding: 9px 25px;
+    background-color: rgba(0,135,169,1);
+    border: none;
+    cursor: pointer;
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover{
+    background-color: rgba(0,135,169,0.8);
+}
+
+#question{
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
